@@ -164,7 +164,7 @@ class _ImagePreviewPageState extends State<ImagePreviewPage> {
         ),
         WebUiSettings(
           context: context,
-          presentStyle: WebPresentStyle.dialog,
+          presentStyle: WebPresentStyle.page,
         ),
       ],
     ).then((croppedFile) async {
